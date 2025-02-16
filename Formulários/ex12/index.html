@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+    <br><br>
+    <label for="endereço">Endereço:</label>
+    <input type="text" name="endereço" id="nome">
+    <br><br>
+    <label for="escolaridade">Escolaridade:</label>
+    <select name="escolaridade" id="escolaridade">
+        <option value="ensino fundamental">Ensino fundamental</option>
+        <option value="ensino médio" selected>Ensino Médio</option>
+        <option value="ensino superior">Ensino Superior</option>
+    </select>
+    <br><br>
+    Setor:
+    <input type="radio" name="setor" id="gerencia">
+    <label for="gerencia">Gerência</label>
+    <input type="radio" name="setor" id="financeiro">
+    <label for="financeiro">Financeiro</label>
+    <input type="radio" name="setor" id="recepção">
+    <label for="recepção">Recepção</label>
+    <input type="radio" name="setor" id="adm">
+    <label for="adm">Administração</label>
+    <br><br>
+    Quais áreas possui interesse?
+    <input type="checkbox" name="area" id="comp">
+    <label for="comp">Computação</label>
+    <input type="checkbox" name="area" id="eng">
+    <label for="eng">Engenharia</label>
+    <input type="checkbox" name="area" id="bio">
+    <label for="bio">Biologia</label>
+    <input type="checkbox" name="area" id="adm">
+    <label for="adm">Administração</label>
+    <br><br>
+    <label for="obs">Observções</label>
+    <br>
+    <textarea name="texto" id="obs"></textarea>
+    <br><br>
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+
+
+</body>
+</html>
