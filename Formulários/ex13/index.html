@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuários</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="escolaridade">Escoaridade</label>
+            <select name="escolaridade" id="escolaridade">
+                <option value="ensino_fundamental">Ensino Fundamental</option>
+                <option value="ensino_medio" selected>Ensino Médio</option>
+                <option value="ensino_superioe">Ensino Superior</option>
+            </select>
+            <br><br>
+            Trabalha atualmente:
+            <input type="radio" name="empregado" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="empregado" id="nao">
+            <label for="nao">Não</label>
+            <br><br>
+            Cursos:
+            <input type="checkbox" name="Cursos" id="informatica">
+            <label for="informatica">Informática básica</label>
+            <input type="checkbox" name="Cursos" id="secretariado">
+            <label for="secretariado">Secretariado</label>
+            <input type="checkbox" name="Cursos" id="logica">
+            <label for="logica">Lógica de programação</label>
+            <input type="checkbox" name="Cursos" id="html">
+            <label for="html">HTML e CSS</label>
+            <input type="checkbox" name="Cursos" id="java">
+            <label for="java">JavaScript</label>
+        </fieldset>
+        <fieldset>
+            <legend>Pesquisa</legend>
+            Ja fez viagem para o exterior?
+            <br><br>
+            <input type="radio" name="viagem" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="viagem" id="nao">
+            <label for="nao">Não</label>
+            <br><br>
+            Quai concorrentes dispertam mais interesses?
+            <br><br>
+            <input type="checkbox" name="interesse" id="sul">
+            <label for="sul"></label>
+            <input type="checkbox" name="interesse" id="">
+            <label for="">América do Sul</label>
+            <input type="checkbox" name="interesse" id="norte">
+            <label for="norte">América do Norte</label>
+            <input type="checkbox" name="interesse" id="central">
+            <label for="central">América Central</label>
+            <input type="checkbox" name="interesse" id="africa">
+            <label for="africa">África</label>
+            <input type="checkbox" name="interesse" id="asia">
+            <label for="asia">Ásia</label>
+            <input type="checkbox" name="interesse" id="europa">
+            <label for="europa">Europa</label>
+            <br><br>
+            <label for="mensagem">Mensagem</label>
+            <br><br>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
