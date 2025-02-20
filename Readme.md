@@ -1,1 +1,1 @@
-Primeiros comando de html, exercitando Parágrafós e cabeçalho
+Primeiros comando de html e CSS. Aprimorando sites visualmente.
